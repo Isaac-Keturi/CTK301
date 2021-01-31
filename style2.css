@@ -1,0 +1,50 @@
+H1{
+  color: #f5bc00;
+  background-color: #000000;
+}
+h2{
+  color: #f5bc00;
+background-color: #000000;}
+h3{
+  color: #f5bc00;}
+
+h4{
+    color: #f5bc00;}
+
+a:link {
+ color: #ff0000;
+}
+a:hover {
+ color: #ffff00;
+}
+a:visited {
+ color: #00ff00;
+}
+#footer{
+  color: #f5bc00;
+  background-color: #000000;
+}
+header {
+  color: #ffffff;
+}
+li {
+  color: #ffffff;
+}
+
+.label {
+  color: #f5bc00;
+  background-color: #000000
+}
+
+.CTK {
+  color: #ffffff;
+}
+p {
+  color: #ffffff;
+}
+body {
+ background-color: #000000
+}
+#courses{
+  color: #ff0000
+}
