@@ -1,0 +1,44 @@
+body {
+  font-family: sans-serif;
+}
+#footer {
+  text-align: center;
+}
+
+.CTK {
+  text-align: justify;
+}
+
+h1 {
+  color: #FFA500;
+  font-style: italic;
+  font-weight: normal;
+}
+
+h2 {
+  color: #FFA500;
+  font-style: italic;
+  font-weight: normal;
+}
+
+h3 {
+  color: #FFA500;
+  font-style: italic;
+  font-weight: normal;
+}
+
+img {
+  border: solid 10px #000000;
+  background-color: #ffffff;
+  padding: 10px; 
+}
+
+body{
+    background-image: url(assignment2/redbirdimage.jpeg);
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+
+p {
+  text-align: justify;
+}
