@@ -1,0 +1,101 @@
+#wrapper {
+  margin: 1px auto;
+  width: 960px;
+  border: 2px solid blue;
+  background-color: #ffffff;
+  display: grid;
+  }
+
+  body {
+    border: solid 10px white;
+  }
+
+header {
+  border: 1px solid blue;
+  grid-row: 12fr;
+  background: rgb(3,190,255);
+background: linear-gradient(287deg, rgba(3,190,255,1) 68%, rgba(255,255,255,1) 100%);}
+
+.nav{
+  border: 1px solid #000000;
+  padding:5px;
+  padding-bottom: 0px;
+  margin: 0;
+  margin-left: 30px;
+  width: 50px;
+  background-color: #cc0000;
+  color: #ffffff;
+  background: rgb(3,190,255);
+  background: linear-gradient(287deg, rgba(3,190,255,1) 68%, rgba(255,255,255,1) 100%);
+text-decoration: none;
+color: #1f8abf;
+padding-right: 5px;
+}
+.gallery{
+  padding-right: 50px;
+}
+
+h1 {
+  margin-left: 30px;
+}
+a {
+  text-decoration: none;
+  color: #1f8abf;
+}
+a:hover {
+  color: #334752
+}
+
+main{
+  margin-left: 25px;
+  margin-right: 25px;
+  font-family: Georgia;
+}
+
+h2 {
+  border-bottom: 3px solid blue;
+  padding-left: 10px;
+  padding-right: 10px;
+  color: #1f8abf;
+  font-family: sans-serif, Helvetica;
+}
+
+.paragraph {
+  font-family: serif, Georgia;
+  text-align: justify;
+  font-weight: bold;
+
+}
+
+#Hargreeves {
+  color: red;
+  font-weight: bold;
+}
+
+.img {
+  float: left;
+  border: solid 2px blue;
+  margin-right: 20px;
+}
+
+.img2 {
+  float: right;
+  border: solid 2px blue;
+  margin-right: 10px;
+}
+
+footer {
+  grid-row: span 12;
+  border-top: 3px solid blue;
+  background-color: red;
+  padding: 10px;
+  padding-left: 30px;
+
+}
+
+.gpg {
+border: solid 0px;
+padding: 5px;
+margin-top: 10px;
+padding-top: 10px;
+}
