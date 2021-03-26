@@ -1,0 +1,55 @@
+body {
+  background-color: #999999;
+}
+
+#wrapper {
+  margin: 24px auto;
+  width: 1200px;
+  border: 1px solid black;
+  padding: 24px;
+  background-color: #45FAFF;
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  grid-column-gap: 24px;
+}
+
+header {
+  grid-column: span 12;
+}
+
+h2 {
+  text-align: center;
+  font-family: Papyrus;
+  font-size: 52px;
+}
+
+main {
+  grid-column: span 12;
+}
+
+p {
+  font-family: Times New Roman;
+  font-size: 22px;
+  line-height: 29px;
+}
+
+footer {
+  grid-column: span 12;
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  grid-column-gap: 24px;
+  border-bottom: solid 1px #000000;
+  padding-bottom: 0px;
+  margin-bottom: 0;
+}
+
+section {
+  grid-column: span 4;
+  text-align: center;
+}
+
+.nav {
+
+  font-family: serif;
+  font-weight: normal;
+  }
