@@ -17,10 +17,32 @@ header {
   grid-column: span 12;
 }
 
-h2 {
+img {
+  display: block;
+  padding: auto;
+  margin: auto;
+  border-radius: 10px;
+
+}
+
+.Isaac {
   text-align: center;
   font-family: Papyrus;
   font-size: 52px;
+  text-shadow: 1px 1px 1px #000;
+}
+
+a {
+  margin-left: 285px;
+  margin-right: auto;
+  padding: auto;
+  width: auto;
+  text-align: center;
+}
+
+#soundcloud {
+padding-top: 45px;
+grid-column: span 12;
 }
 
 main {
@@ -28,7 +50,8 @@ main {
 }
 
 p {
-  font-family: Times New Roman;
+  font-family: 'PT Serif', serif;
+
   font-size: 22px;
   line-height: 29px;
 }
@@ -49,7 +72,8 @@ section {
 }
 
 .nav {
+font-family: 'PT Serif', serif;
 
-  font-family: serif;
   font-weight: normal;
+  text-shadow: .5px .5px .5px #000;
   }
