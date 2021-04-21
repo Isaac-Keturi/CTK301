@@ -1,0 +1,79 @@
+body {
+  background-color: #999999;
+}
+
+#wrapper {
+  margin: 24px auto;
+  width: 1200px;
+  border: 1px solid black;
+  padding: 24px;
+  background-color: #45FAFF;
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  grid-column-gap: 24px;
+}
+
+header {
+  grid-column: span 12;
+}
+
+
+
+img {
+  display: block;
+  padding: auto;
+  margin: auto;
+  border-radius: 10px;
+
+}
+
+.Isaac {
+  text-align: center;
+  font-family: Papyrus;
+  font-size: 52px;
+  text-shadow: 1px 1px 1px #000;
+}
+
+a {
+  margin-left: 285px;
+  margin-right: auto;
+  padding: auto;
+  width: auto;
+  text-align: center;
+}
+
+#soundcloud {
+padding-top: 45px;
+grid-column: span 12;
+}
+
+main {
+  grid-column: span 12;
+}
+
+p {
+  font-family: 'PT Serif', serif;
+
+  font-size: 22px;
+  line-height: 29px;
+}
+
+footer {
+  grid-column: span 12;
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  grid-column-gap: 24px;
+  border-bottom: solid 1px #000000;
+  padding-bottom: 0px;
+  margin-bottom: 0;
+}
+
+section {
+padding-right: 15px;
+  }
+
+.nav {
+font-family: Papyrus, 'PT Serif', serif;
+font-weight: bold;
+font-size: 22px;
+}
